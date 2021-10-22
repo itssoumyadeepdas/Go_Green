@@ -70,8 +70,8 @@ Sharpener,Plastic-Metal,Plastic,0
 Idols,Clay-Metal-Plaster of Paris,Organic,1
 Photo Frame,Plastic-Glass-Metal,Mix,0
 Refrigerator,Plastic-Metal,Electronic,0
-Ovens,Metal-Glass,Electronic,0
-Wires,Plastic-Copper-Tin-Phosphorus,Metal,0
+Oven,Metal-Glass,Electronic,0
+Wire,Plastic-Copper-Tin-Phosphorus,Metal,0
 Door Mat,Fibre-Nylon-Rubber,Organic,1
 Gas Stove,Metal-Plastic-Glass,Mix,0
 Water Filter,Plastic-Metal-Rubber,Plastic,0
