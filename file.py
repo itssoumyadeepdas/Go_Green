@@ -1,7 +1,9 @@
 import csv
 import pandas as pd
-itemFile="userItem.csv"
-remFile="userRemark.csv"
+import os
+from Resource.resourcePath import getResourcePath
+itemFile=os.path.join(getResourcePath(),"Resource/userItem.csv")
+remFile=os.path.join(getResourcePath(),"Resource/userRemark.csv")
 def writeItem(l): #name,email,item
     with open(itemFile,'a',newline="") as iFile:
         write=csv.writer(iFile)
@@ -13,10 +15,10 @@ def writeRem(l):
         write.writerow(l)
         rFile.close()
 def readItemData():
-    iData=pd.read_csv("userItem.csv")
+    iData=pd.read_csv(itemFile)
     return iData
 def readRemarkData():
-    rData=pd.read_csv("userRemark.csv")
+    rData=pd.read_csv(remFile)
     return rData
 
 def remAll():
