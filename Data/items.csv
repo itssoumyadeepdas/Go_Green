@@ -1,0 +1,85 @@
+﻿Item Name,Composition,Category,Status
+Bottle,Plastic-Glass,Plastic,0
+Pencil,Wood-Graphite,Organic,1
+Tooth Paste Tube,High Density Polyethylene,Packaging,0
+Toothbrush,Plastic-Nylon,Plastic,0
+Soap,Fat/Oil-Sodium Hydroxide,Chemical,0
+Towel,Cotton-Polyester,Cloth,1
+Cloth,Nylon-Cotton-Polyester-Silk-Wool,Cloth,1
+Mirror,Glass-Alluminium-Silver,Indestructible,0
+Spoon,Steel-Plastic-Wood-Glass,Utensil,2
+Plate,Steel-Plastic-Wood-Glass,Utensil,2
+Shoe,Leather-Canvas-Rubber-Cotton,Semi-Organic,1
+Wallet,Leather-Canvas,Semi-Organic,1
+Comb,Plastic-Wood-Steel,Plastic,0
+Kerchief,Cotton-Polyester,Cloth,1
+Pen,Plastic-Steel-Rubber,Plastic,0
+Vegetables,Organic,Organic,1
+Paper,Organic-Wood Pulp,Organic,1
+T-shirt,Cotton-Polyster,Cloth,1
+Orange Peels,Organic,Organic,1
+Tree Leaves,Organic,Organic,1
+Wool Socks,Organic-Acrylic,Cloth,1
+Milk Cartons,Paper-Plastic-Alluminium,Packaging,1
+Fabric,Nylon-Cotton-Jute-Silk-Wool,Cloth,1
+Cans,Alluminium-Iron-Steel-Tin,Packaging,0
+Cup,Ceramic-Glass-Metal-Clay-Wood-Stone-Polystyrene-Plastic-Alluminium,Utensil,1
+Plastic bags,Plastic,Plastic,0
+Cigarette butts,Plastic-Cellulose,Indestructible,1
+Straws,Plastic-Steel,Plastic,0
+Diapers,Plastic,Indestructible,0
+Styrofoam,Polystyrene,Indestructible,0
+Fishing line,Nylon,Indestructible,0
+Tea Leaves,Organic,Organic,1
+Mobile,Plastic-Glass,Plastic,0
+Sweater,Wool,Cloth,1
+Egg Shell,Organic,Organic,1
+Coconut Oil,Organic,Organic,1
+Broom Stick,Plastic,Plastic,0
+Candle ,Wax,Organic,1
+Match Stick,Wood,Organic,1
+Coffee Mug,Plastic-Clay,Plastic,0
+Piggy Bank,Plastic-Clay,Plastic,2
+School Bag,Fabric- Pastic-Metal,Cloth,1
+Notebook,Paper,Organic,1
+Pot,Clay-Metal,Organic,1
+Wooden Chair,Wood,Organic,1
+Plastic Chair,Plastic,Plastic,0
+Flower Vase,Metal-Glass,Indestructible,1
+Laptop,Metal-Plastic,Electronic,2
+Water Pipe,PVC,Plastic,0
+Bangles,Glass,Indestructible,0
+Pillow,Fabric ,Cloth,1
+Bedsheet,Fabric,Cloth,1
+Tin Can,Steel,Packaging,1
+Tyre,Rubber,Indestructible,0
+Light Bulb,Glass-Argon-Nitrogen,Glass,0
+Broom,Broomcorn,Organic,1
+Plastic Broom,Broomcorn-Plastic,Semi-Organic,0
+Containers,Plastic,Plastic,0
+Guitar,Wood-Tin Plated Steel,Instrument,1
+Battery,Steel-Zinc-Potassium-Graphite,Electronic,0
+Switch,Thermosetting Plastic,Electronic,0
+Toys,Plastic-Metals,Plastic,0
+Bat,Wood,Organic,1
+Spectacles,Glass-Plastic-Metal,Glass,0
+Ruler,Plastic-Wood-Steel,Plastic,0
+Paper Bag,Organic-Wood Pulp,Organic,1
+Eraser,Rubber,Semi-Organic,1
+Sharpener,Plastic-Metal,Plastic,0
+Idols,Clay-Metal-Plaster of Paris,Organic,1
+Photo Frame,Plastic-Glass-Metal,Mix,0
+Refrigerator,Plastic-Metal,Electronic,0
+Oven,Metal-Glass,Electronic,0
+Wire,Plastic-Copper-Tin-Phosphorus,Metal,0
+Door Mat,Fibre-Nylon-Rubber,Organic,1
+Gas Stove,Metal-Plastic-Glass,Mix,0
+Water Filter,Plastic-Metal-Rubber,Plastic,0
+Air Conditioner,Plastic-Metal,Electronic,0
+Air Conditioner,Plastic-Metal,Electronic,0
+Medicine,Chemicals,Chemical,1
+Slipper,Rubber-Fabric,Semi-Organic,1
+Television,Plastic-Glass-Metal,Electronic,0
+Harmonium,Wood-Metal-Plastic,Instrument,1
+Tabla,Wood-Rubber,Instrument,1
+Sitar,Wood-Metal,Instrument,1
