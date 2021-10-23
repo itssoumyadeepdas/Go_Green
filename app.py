@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
-#form link_tip.
+from link_tip import getLink()
 #from file import *
 #from auth import *
 from Resource.resourcePath import getResourcePath
