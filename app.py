@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import link_tip.getLink 
+from link_tip.getLink import getLink
 #from file import *
 #from auth import *
 from Resource.resourcePath import getPath
