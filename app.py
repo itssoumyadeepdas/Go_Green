@@ -6,7 +6,8 @@ import pandas as pd
 from Resource.resourcePath import getResourcePath
 
 st.set_page_config(page_title="Go Green",page_icon="logo.png")
-path=getpath()+item.csv
+path=os.path.join(getpath(),"item.csv")
+
 s=pd.read_csv(path)
 lItem=s['Item Name'].tolist()
 lItem.insert(0,"None")
