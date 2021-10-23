@@ -6,7 +6,7 @@ from auth import *
 
 st.set_page_config(page_title="Go Green",page_icon="logo.png")
 
-s=pd.read_csv("C:/Users/Sagar Kumar/Downloads/t1.csv")
+s=pd.read_csv("Resource/items.csv")
 lItem=s['Item Name'].tolist()
 lItem.insert(0,"None")
 
