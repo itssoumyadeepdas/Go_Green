@@ -1,5 +1,5 @@
 import pandas as pd
-import os
+
 t=pd.read_csv("links.csv")
 v=pd.read_csv("tips.csv")
 def getLink(item):
