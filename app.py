@@ -1,12 +1,13 @@
 import streamlit as st
 import pandas as pd
-from link_tip import *
-from file import *
-from auth import *
+import link_tip 
+#from file import *
+#from auth import *
+from Resource.resourcePath import getPath
 
 st.set_page_config(page_title="Go Green",page_icon="logo.png")
-
-s=pd.read_csv("Resource/items.csv")
+path=getpath()+item.csv
+s=pd.read_csv(path)
 lItem=s['Item Name'].tolist()
 lItem.insert(0,"None")
 
