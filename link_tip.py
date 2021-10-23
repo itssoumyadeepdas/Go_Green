@@ -1,7 +1,7 @@
 import pandas as pd
 
-t=pd.read_csv("tips.csv")
-v=pd.read_csv("link.csv")
+t=pd.read_csv("Resource/tips.csv")
+v=pd.read_csv("Resource/link.csv")
 def getLink(item):
     d=v.loc[v['Item']==item]
     return (d.iloc[0,1])
