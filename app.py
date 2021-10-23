@@ -3,7 +3,7 @@ import pandas as pd
 #form link_tip.
 #from file import *
 #from auth import *
-from Resource.resourcePath.getPath import getPath
+from Resource.resourcePath import getResourcePath
 
 st.set_page_config(page_title="Go Green",page_icon="logo.png")
 path=getpath()+item.csv
