@@ -1,8 +1,6 @@
 import pandas as pd
+import os
 from Resource.resourcePath import getResourcePath
-logo=os.path.join(getResourcePath(),"Resource/Logo.png")
-st.set_page_config(page_title="Go Green",page_icon=logo)
-#path=os.path.join(getResourcePath(),"Resource/items.csv")
 t=pd.read_csv(os.path.join(getResourcePath(),"Resource/tips.csv"))
 v=pd.read_csv(os.path.join(getResourcePath(),"Resource/link.csv"))
 def getLink(item):
