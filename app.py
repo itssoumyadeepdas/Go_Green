@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import Go_Green.link_tip.getLink as getLink
+import Go_Green/link_tip
 from file import *
 from auth import *
 
