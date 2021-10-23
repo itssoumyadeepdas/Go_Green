@@ -7,7 +7,7 @@ import os
 from Resource.resourcePath import getResourcePath
 
 st.set_page_config(page_title="Go Green",page_icon="logo.png")
-path=os.path.join(getResourcePath(),"Resource/item.csv")
+path=os.path.join(getResourcePath(),"Resource/items.csv")
 
 s=pd.read_csv(path)
 lItem=s['Item Name'].tolist()
