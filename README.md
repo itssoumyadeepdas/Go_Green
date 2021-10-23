@@ -1,1 +1,1 @@
-<h1 align ="center">* Go Green *</h1>
+<p align="center"><img src="Resource/Logo_for_readme.jpeg" align=></p>
