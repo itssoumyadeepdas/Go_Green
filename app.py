@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import os
 from link_tips import *
-#from file import *
-#from auth import *
+from file import *
+from auth import *
 from Resource.resourcePath import getResourcePath
 logo=os.path.join(getResourcePath(),"Resource/Logo.png")
 st.set_page_config(page_title="Go Green",page_icon=logo)
