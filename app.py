@@ -1,6 +1,7 @@
 import streamlit as st
-import pandas as pd 
-from link_tip import *
+import pandas as pd
+import link_tip
+from .link_tip import *
 from file import *
 from auth import *
 
