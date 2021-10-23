@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import link_tip
-from .link_tip import *
+from https://github.com/sagarkumar3105/Go_Green/blob/main/link_tip.py import *
 from file import *
 from auth import *
 
