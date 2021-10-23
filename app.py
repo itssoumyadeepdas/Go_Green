@@ -5,8 +5,8 @@ import os
 #from file import *
 #from auth import *
 from Resource.resourcePath import getResourcePath
-
-st.set_page_config(page_title="Go Green",page_icon="logo.png")
+logo=os.path.join(getResourcePath(),"Resource/Logo.png")
+st.set_page_config(page_title="Go Green",page_icon=logo)
 path=os.path.join(getResourcePath(),"Resource/items.csv")
 
 s=pd.read_csv(path)
