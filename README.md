@@ -1,6 +1,6 @@
 <p align="center"><img src="Resource/logo_for_readme1.png" width=100 height=100><br><img src="Resource/logo_for_readme2.png" height=50></p>
 
-![Untitled design (1)](https://user-images.githubusercontent.com/86939391/138578244-3b8380bc-b59f-4453-936e-bd5436168871.png)
+![Screenshot (1597)](https://user-images.githubusercontent.com/86939391/138579400-d55d0f32-a4f3-4bd8-879b-cf9562ecf77d.png)
 # GO GREEN
 Go green to make the globe clean
 # Project Theme
