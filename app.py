@@ -62,13 +62,14 @@ def contactUs():
     else:
         pass
 def admin():
-    st.markdown("<h3 style='text-align: center;'>Admin's Dashboard</h3>", unsafe_allow_html=True)
+
     st.sidebar.title("Admin Login")
     un=st.sidebar.text_input("Username")
     pw=st.sidebar.text_input("Password",type="password")
     login=st.sidebar.button("Login")
     
     if login:
+        st.markdown("<h3 style='text-align: center;'>Admin's Dashboard</h3>", unsafe_allow_html=True)
         if not checkUsername(un):
             st.sidebar.error("Wrong Username")
         if not checkPassword(pw):
@@ -83,6 +84,11 @@ def admin():
                 st.dataframe(readRemarkData(),width=500)
             st.markdown("---")
             st.info("Item requested include:  \n"+readItemList())
+
+    Reset=st.sidebar.button("Wipe Out the data")
+    if Reset and checkUsername(un) and checkPassword(pw):
+        remAll()
+        st.warning("All user data has been removed")
 
 def home():
     item=st.selectbox("Choose an Item",lItem)
