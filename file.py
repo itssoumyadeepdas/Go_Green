@@ -22,7 +22,7 @@ def readRemarkData():
     return rData
 def readItemList():
     iData=pd.read_csv(itemFile)
-    l=iData['Items'].str.split("-")
+    l=iData['Items'].str.split("_")
     l=list(l)
     l=sum(l,[])
     outList=(', '.join(l))
