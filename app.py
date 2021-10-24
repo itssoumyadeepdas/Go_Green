@@ -20,10 +20,8 @@ with col2:
     st.image(logo)
 with col3:
     st.write("")
-
 st.markdown("<h1 style='text-align: center; color: green; text-shadow: 2px 2px #BDD9B5'>Go Green</h1><hr>", unsafe_allow_html=True)
-
-item=""#st.selectbox("Choose an Item",lItem)
+item=""
 d=pd.DataFrame()
 
 def getComp(df):
@@ -65,11 +63,11 @@ def contactUs():
         pass
 def admin():
     st.markdown("<h3 style='text-align: center;'>Admin's Dashboard</h3>", unsafe_allow_html=True)
-
-    st.sidebar.title("Admin Page")
+    st.sidebar.title("Admin Login")
     un=st.sidebar.text_input("Username")
     pw=st.sidebar.text_input("Password",type="password")
     login=st.sidebar.button("Login")
+    
     if login:
         if not checkUsername(un):
             st.sidebar.error("Wrong Username")
@@ -83,28 +81,9 @@ def admin():
             with c2:
                 st.subheader("Remarks")
                 st.dataframe(readRemarkData(),width=500)
-            
-            allResetCol,iResetCol,rResetCol=st.columns(3)
-            with allResetCol:
-                if st.button("Clear All Data"):
-                    remAll()
-            with iResetCol:
-                iReset=st.button("Clear Items Data")
-            with rResetCol:
-                remReset=st.button("Clear Remarks Data")
-
-            '''if allReset:
-                remAll()
-                st.success("Successe fully cleared all")'''
-                
-            if iReset:
-                remItem()
-                st.success("Successe fully cleared Item Data")
-            
-            if remReset:
-                remRemarks()
-                st.success("Successe fully cleared Remark data")
-           # st.info(allReset)
+            st.markdown("---")
+            st.write("Items requested are:")
+            st.write(readItemList())
 
 def home():
     item=st.selectbox("Choose an Item",lItem)
