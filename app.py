@@ -82,8 +82,7 @@ def admin():
                 st.subheader("Remarks")
                 st.dataframe(readRemarkData(),width=500)
             st.markdown("---")
-            st.write("Items requested are:")
-            st.write(readItemList())
+            st.info("Item requested are:"+readItemList())
 
 def home():
     item=st.selectbox("Choose an Item",lItem)
