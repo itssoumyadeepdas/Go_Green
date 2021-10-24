@@ -1,4 +1,8 @@
 <p align="center"><img src="Resource/logo_for_readme1.png" width=100 height=100><br><img src="Resource/logo_for_readme2.png" height=50></p>
+
+![Untitled design (1)](https://user-images.githubusercontent.com/86939391/138578244-3b8380bc-b59f-4453-936e-bd5436168871.png)
+
+
 <hr>
 You can access the running version of the app [here]  (https://share.streamlit.io/sagarkumar3105/go_green/main/app.py) or follow the instructions for installtion.
 <h1>Installation guide:</h1>
