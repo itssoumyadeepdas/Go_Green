@@ -1,6 +1,6 @@
 import pandas as pd
 
-df=pd.read_csv("cred.csv")
+df=pd.read_csv("cred.csv") #change location
 def checkUsername(un):
     for x in df['Username']:
         if un==x:
