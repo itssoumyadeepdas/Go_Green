@@ -8,7 +8,7 @@ You can access the running version of the app <a href="https://share.streamlit.i
   
      ```git clone https://github.com/sagarkumar3105/Go_Green.git```
 
-  2. Go to core directory
+  2. Go to `core` directory
   3. Open `app.py` make neccessary changes in the address and locations
   4. Save the changes in all .py files
   5. Open command Prompt and enter
