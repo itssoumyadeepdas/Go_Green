@@ -20,20 +20,21 @@ def readItemData():
 def readRemarkData():
     rData=pd.read_csv(remFile)
     return rData
+def readItemList():
+    iData=pd.read_csv("userItem.csv")
+    l=iData['Items'].str.split("-")
+    l=list(l)
+    l=sum(l,[])
+    outList=(', '.join(l))
+    return(outList)
 
 def remAll():
-    remItem()
-    remRemarks()
-
-def remItem():
-    
     with open(itemFile,'w+') as iFile:
         write=csv.writer(iFile)
         iFile.truncate()
         write.writerow(["Name","Email","Items"])
         iFile.close
     
-def remRemarks():
     with open(remFile,'w+') as rFile:
         write=csv.writer(rFile)
         rFile.truncate()
