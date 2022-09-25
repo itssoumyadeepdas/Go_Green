@@ -6,7 +6,7 @@ You can access the running version of the app <a href="https://share.streamlit.i
 
   1. Fork this repo with following command
   
-     ```git clone https://github.com/sagarkumar3105/Go_Green.git```
+     ```git clone https://github.com/itssoumyadeepdas/Go_Green.git```
 
   3. Open `app.py` make neccessary changes in the address and locations
   4. Save the changes in all .py files
